@@ -1,8 +1,8 @@
-﻿using BookStoreWeb.Models;
+﻿using BulkyWeb.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace BookStoreWeb.Data
+namespace BulkyWeb.Data
 {
     public class ApplicationDbContext : DbContext
     {

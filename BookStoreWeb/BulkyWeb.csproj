@@ -22,5 +22,8 @@
 	<ItemGroup>
 		<ProjectReference Include="..\Bulky.DataAccess\Bulky.DataAccess.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Controllers\" />
+	</ItemGroup>
 
 </Project>

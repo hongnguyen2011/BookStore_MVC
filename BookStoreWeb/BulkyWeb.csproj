@@ -7,6 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Content Remove="Controllers\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <None Remove="Controllers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\product.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\product.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
       <PrivateAssets>all</PrivateAssets>
@@ -23,7 +38,10 @@
 		<ProjectReference Include="..\Bulky.DataAccess\Bulky.DataAccess.csproj" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="Controllers\" />
+	  <Folder Include="wwwroot\images\product\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="wwwroot\js\product.js" />
 	</ItemGroup>
 
 </Project>
